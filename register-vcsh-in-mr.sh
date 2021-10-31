@@ -5,7 +5,7 @@ template='[$HOME/.config/vcsh/repo.d/$NAME.git]\ncheckout = vcsh clone ${URL} ${
 target_uber_dir=$HOME/.config/mr/available.d
 
 if [[ ! -d ${target_uber_dir} ]]; then
-	 echo "The direcory ${target_uber_dir} does not exist; about to create it..."
+	 echo "The directory ${target_uber_dir} does not exist; about to create it..."
 fi	 
 
 cd
